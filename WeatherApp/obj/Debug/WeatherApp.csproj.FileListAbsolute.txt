@@ -33,7 +33,6 @@ C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\WeatherApp.
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\Microsoft.Threading.Tasks.dll
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
-C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\OpenWeatherMap.dll
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\System.Net.Http.Extensions.dll
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\System.Net.Http.Primitives.dll
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\bin\Debug\Microsoft.Threading.Tasks.xml

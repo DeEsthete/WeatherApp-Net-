@@ -1,5 +1,4 @@
-﻿using OpenWeatherMap;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -66,7 +65,7 @@ namespace WeatherApp
                 }
                 catch
                 {
-                    MessageBox.Show("Такого города нет");
+                    MessageBox.Show("такой город не найден(проверьте праивльность написания)");
                     return null;
                 }
             });

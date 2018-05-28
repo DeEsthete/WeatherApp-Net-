@@ -14,5 +14,6 @@
         <TextBox x:Name="cityTextBox" HorizontalAlignment="Left" Height="36" Margin="187,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="595" FontSize="30"/>
         <StackPanel x:Name="prognosisDays" Orientation="Horizontal" HorizontalAlignment="Left" Height="344" Margin="10,65,0,0" VerticalAlignment="Top" Width="1241"/>
         <TextBlock HorizontalAlignment="Left" Margin="1034,10,0,0" TextWrapping="Wrap" Text="Weather App" VerticalAlignment="Top" Height="36" Width="217" FontSize="30" Foreground="#FF8F94FF" FontFamily="Perpetua Titling MT"/>
+        <!--<TextBlock HorizontalAlignment="Left" Margin="787,10,0,0" TextWrapping="Wrap" Text="Наименование городов писать на английском" VerticalAlignment="Top" Height="36" FontSize="20"/>-->
     </Grid>
 </Window>
