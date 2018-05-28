@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace WeatherApp
 {
+    [XmlRoot(ElementName = "root")]
     public class Root
     {
         [XmlElement(ElementName = "location")]

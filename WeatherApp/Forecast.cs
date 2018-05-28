@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace WeatherApp
 {
+    [XmlRoot(ElementName = "forecast")]
     public class Forecast
     {
         [XmlElement(ElementName = "forecastday")]

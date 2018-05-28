@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace WeatherApp
 {
+    [XmlRoot(ElementName = "current")]
     public class Current
     {
         [XmlElement(ElementName = "last_updated_epoch")]

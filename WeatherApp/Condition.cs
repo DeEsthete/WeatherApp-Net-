@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace WeatherApp
 {
+    [XmlRoot(ElementName = "condition")]
     public class Condition
     {
         [XmlElement(ElementName = "text")]

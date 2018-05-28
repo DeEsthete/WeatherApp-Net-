@@ -5,16 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="1276.5">
     <Grid>
-        <Button x:Name="withdrawWeatherButton" Content="Вывести погоду" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="112" Height="36" Click="WithdrawWeatherButtonClick"/>
-        <TextBlock HorizontalAlignment="Left" Margin="127,10,0,0" TextWrapping="Wrap" Text="Город:" VerticalAlignment="Top" Height="36" Width="138" FontSize="30" Padding="0"/>
-        <TextBox x:Name="cityTextBox" HorizontalAlignment="Left" Height="36" Margin="270,10,0,0" TextWrapping="Wrap" Text="Astana" VerticalAlignment="Top" Width="161" FontSize="30"/>
-        <ListView x:Name="weatherListView" HorizontalAlignment="Left" Height="339" Margin="10,70,0,0" VerticalAlignment="Top" Width="772">
-            <ListView.View>
-                <GridView/>
-            </ListView.View>
-        </ListView>
-
+        <Grid.Background>
+            <ImageBrush ImageSource="mainImage.jpg"/>
+        </Grid.Background>
+        <Button x:Name="withdrawWeatherButton" Content="Show prognosis" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="172" Height="36" Click="WithdrawWeatherButtonClick" FontFamily="Open Sans Semibold" FontSize="20"/>
+        <TextBox x:Name="cityTextBox" HorizontalAlignment="Left" Height="36" Margin="187,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="595" FontSize="30"/>
+        <StackPanel x:Name="prognosisDays" Orientation="Horizontal" HorizontalAlignment="Left" Height="344" Margin="10,65,0,0" VerticalAlignment="Top" Width="1241"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1034,10,0,0" TextWrapping="Wrap" Text="Weather App" VerticalAlignment="Top" Height="36" Width="217" FontSize="30" Foreground="#FF8F94FF" FontFamily="Perpetua Titling MT"/>
     </Grid>
 </Window>

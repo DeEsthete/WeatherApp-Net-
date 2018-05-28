@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace WeatherApp
 {
+    [XmlRoot(ElementName = "day")]
     public class Day
     {
         [XmlElement(ElementName = "maxtemp_c")]

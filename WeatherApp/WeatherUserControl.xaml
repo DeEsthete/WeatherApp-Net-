@@ -7,14 +7,21 @@
              mc:Ignorable="d" 
              d:DesignHeight="276.328" d:DesignWidth="196.218">
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.5">
+                <GradientStop Color="#FF004A6C" Offset="0"/>
+                <GradientStop Color="#FF3CC1FF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <Image x:Name="imageWeather" HorizontalAlignment="Left" Height="100" Margin="10,40,0,0" VerticalAlignment="Top" Width="176"/>
-        <TextBlock x:Name="dateWeather" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="176" Height="25"/>
-        <TextBlock x:Name="dayTemperatureWeather" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top" Height="32" Width="88"/>
-        <TextBlock x:Name="nightTemperatureWeather" HorizontalAlignment="Left" Margin="103,145,0,0" TextWrapping="Wrap" Text="Night" VerticalAlignment="Top" Height="32" Width="83"/>
+        <TextBlock x:Name="dateWeather" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="176" Height="25" FontSize="18"/>
+        <TextBlock x:Name="dayTemperatureWeather" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top" Height="32" Width="88" FontSize="18" FontFamily="Segoe UI Black" Foreground="#FFFFD548"/>
+        <TextBlock x:Name="nightTemperatureWeather" HorizontalAlignment="Left" Margin="103,145,0,0" TextWrapping="Wrap" Text="Night" VerticalAlignment="Top" Height="32" Width="83" FontSize="18" FontFamily="Segoe UI Black" Foreground="#FF0032B8"/>
         <TextBlock x:Name="specificationWeather" HorizontalAlignment="Left" Margin="10,182,0,0" TextWrapping="Wrap" Text="Погода" VerticalAlignment="Top" Width="176" Height="22"/>
-        <TextBlock x:Name="pressureWeather" HorizontalAlignment="Left" Margin="10,209,0,0" TextWrapping="Wrap" Text="Давление" VerticalAlignment="Top"/>
-        <TextBlock x:Name="humidityWeather" HorizontalAlignment="Left" Margin="10,230,0,0" TextWrapping="Wrap" Text="Влажность" VerticalAlignment="Top"/>
-        <TextBlock x:Name="windWeather" HorizontalAlignment="Left" Margin="10,251,0,0" TextWrapping="Wrap" Text="Ветер" VerticalAlignment="Top"/>
+        <TextBlock x:Name="humidityWeather" HorizontalAlignment="Left" Margin="74,212,0,0" TextWrapping="Wrap" Text="Влажность" VerticalAlignment="Top" Width="111"/>
+        <TextBlock x:Name="windWeather" HorizontalAlignment="Left" Margin="74,233,0,0" TextWrapping="Wrap" Text="Ветер" VerticalAlignment="Top" Width="111"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,212,0,0" TextWrapping="Wrap" Text="Humidity" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,233,0,0" TextWrapping="Wrap" Text="Wind" VerticalAlignment="Top" Width="59"/>
 
     </Grid>
 </UserControl>

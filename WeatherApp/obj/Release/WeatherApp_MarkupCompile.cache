@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\obj\Debug\
+C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\obj\Release\
 WeatherApp
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\App.xaml
 2940193217
 
@@ -16,5 +16,5 @@ C:\Users\djoni\Desktop\projects\WeatherApp-Net-\WeatherApp\App.xaml
 74-1345007949
 MainWindow.xaml;WeatherUserControl.xaml;
 
-False
+True
 

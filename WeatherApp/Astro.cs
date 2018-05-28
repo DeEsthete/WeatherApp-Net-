@@ -7,6 +7,7 @@ using System.Xml.Serialization;
 
 namespace WeatherApp
 {
+    [XmlRoot(ElementName = "astro")]
     public class Astro
     {
         [XmlElement(ElementName = "sunrise")]
